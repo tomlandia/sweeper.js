@@ -1,0 +1,36 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Sweeper.js</title>
+  <meta name="description" content="Best MineSweeper ever">
+  <meta name="author" content="Thomas Schneider">
+
+  <link rel="stylesheet" href="sweeper.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.2/pure-min.css	">
+</head>
+
+<body>
+  <form class="pure-form">
+    <fieldset>
+        <label for="height">Height</label>
+        <input type="text" id="height" value="16">
+        <label for="width">Width</label>
+        <input type="text" id="width" value="16">
+        <label for="mines">Mines</label>
+        <input type="text" id="mines" value="40">
+
+        <button id="new-game" action="javascript:void()" class="pure-button pure-button-primary">New Game</button>
+    </fieldset>
+  </form>
+
+  <div id="sweeper"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.2.0/zepto.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+  <script src="sweeper.js"></script>
+</body>
+</html>

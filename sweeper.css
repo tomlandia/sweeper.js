@@ -1,0 +1,43 @@
+.square {
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    margin: 0;
+    background-color: #d3d3d3;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
+.square.explosion {
+    background-color: red !important;
+}
+.square.open {
+    background-color: white;
+}
+.square.color-1 {
+    color: blue;
+}
+.square.color-2 {
+    color: green;
+}
+.square.color-3 {
+    color: red;
+}
+
+.square i {
+    pointer-events: none;
+    color: black;
+}
+
+.row {
+    display: flex;
+    margin: 0;
+}
+
+#sweeper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%,-50%,0);
+}
